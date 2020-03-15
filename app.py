@@ -41,6 +41,17 @@ def email_booking_confirmation_to_owner():
 	# Return status code
 	return "200"
 
+@app.route('/text_booking_confirmation_to_owner', methods=['POST'])
+def text_booking_confirmation_to_owner():
+	# Gather Data
+	bookingInfo = request.json
+	
+	# Send email to dlandry email server using client contact info
+	#textClient = TextClient()
+
+	# Return status code
+	return "200"
+
 
 # Run app on 0.0.0.0:5001
 if __name__ == "__main__":

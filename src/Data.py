@@ -1,7 +1,7 @@
 
 class Data:
 	clientEmail = "dyanownz@gmail.com"
-	clientPassword = "Blueballs69"
+	clientPassword = "Blueballs69!"
 	serverEmail = "contact@dlandrybeachhouses.com"
 
 	# Email Confirmation to owners when dates are booked
